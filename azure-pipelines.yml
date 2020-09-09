@@ -20,6 +20,5 @@ steps:
     location: 'Central India'
     templateLocation: 'Linked artifact'
     csmFile: 'azuredeploy.json'
-    overrideParameters: '-projectName ARM-01 -linkedTemplateUri https://raw.githubusercontent.com/KetanPatel83/IAC-AzureRmPipeline-repo/master/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
 
